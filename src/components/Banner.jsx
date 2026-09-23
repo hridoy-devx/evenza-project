@@ -7,7 +7,7 @@ import CountDown from './CountDown'
 import borderimg from '../assets/border01.png'
 import borderimgs from '../assets/border02.png'
 import borderimgt from '../assets/border03.png'
-import alibanat from '../assets/alibanat.mp4'
+import alibanat from "../assets/alibanat.mp4"
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import Pulsea from './Pulsea'

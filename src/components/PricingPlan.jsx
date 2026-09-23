@@ -4,7 +4,7 @@ import CommonFast from './CommonFast'
 import PricingCustom from './PricingCustom'
 import Flex from './Flex'
 import pricinglogo from '../assets/pricinglogo.png'
-import pricinglogo3 from '../assets/Premium.png'
+import pricinglogo3 from '../assets/premium.png'
 import pricinglogo2 from '../assets/standard.png'
 const PricingPlan = () => {
   return (

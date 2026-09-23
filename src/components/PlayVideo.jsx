@@ -6,7 +6,7 @@ import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import Button from '@mui/material/Button';
 import Pulsea from './Pulsea';
-import alibanat from '../assets/alibanat.mp4'
+import alibanat from "../assets/alibanat.mp4";
 
 
 
