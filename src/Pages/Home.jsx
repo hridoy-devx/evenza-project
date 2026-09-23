@@ -32,9 +32,6 @@ const Home = () => {
     <LatestBlog/>
     <Footer/>
     
-
-   
-    
       
     </>
   )
