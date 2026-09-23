@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import "tailwindcss";
+
+@utility container{
+  @apply mx-auto
+}
+
+@theme{
+  --breakpoint-*:initial;
+  --breakpoint-sm:570px;
+  --breakpoint-md:780px;
+  --breakpoint-lg:960px;
+  --breakpoint-xl:1180px;
+  --breakpoint-2xl:1500px;
+  --font-onset: "Onest", sans-serif;
+  --color-primary:#734BDF
+}
+
+
+.pulse {
+  animation: animate-pulse 3s linear infinite;
+}
+
+@keyframes animate-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255,109,74,0.7), 0 0 0 0 rgba(255,109,74,0.7);
+  }
+  40% {
+    box-shadow: 0 0 0 50px rgba(255,109,74,0.0), 0 0 0 0 rgba(255,109,74,0.7);
+  }
+  80% {
+    box-shadow: 0 0 0 50px rgba(255,109,74,0.0), 0 0 0 30px rgba(255,109,74,0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255,109,74,0.0), 0 0 0 30px rgba(255,109,74,0);
+  }
+}
