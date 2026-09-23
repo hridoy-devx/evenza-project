@@ -64,7 +64,6 @@ for attendees'
      </div>
       </Container>
 
-      
     </div>
   )
 }
